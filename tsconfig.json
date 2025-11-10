@@ -1,0 +1,14 @@
+﻿{
+  "compilerOptions": {
+    "target": "ES2021",
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "strict": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "types": ["@playwright/test"],
+    "outDir": "dist"
+  },
+  "include": ["playwright.config.ts", "tests/**/*.ts"]
+}
