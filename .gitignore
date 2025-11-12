@@ -1,0 +1,27 @@
+node_modules/
+playwright-report/
+test-results/
+blob-report/
+last-run.json
+index.html
+
+# Cache/artefatos de execução
+*.log
+*.tmp
+*.swp
+
+# Vídeos e anexos de testes
+*.webm
+*.mp4
+*.zip
+
+# Credenciais/variáveis locais
+.env
+.env.*
+
+# Arquivos do SO
+.DS_Store
+Thumbs.db
+
+test-results/.last-run.json
+playwright-report/index.html
